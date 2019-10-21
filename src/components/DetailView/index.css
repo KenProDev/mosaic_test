@@ -1,0 +1,31 @@
+.article_wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 750px;
+  align-self: center;
+}
+
+.article_header_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 16px
+}
+
+.article_headline {
+  flex: 1;
+  text-align: center;
+  color: #007bff;
+}
+
+.article_image {
+  width: 100%;
+}
+
+.article_content {
+  color: #007bff
+}
